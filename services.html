@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Kompare</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Kompare</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item active">
+            <a href="services.html" class="nav-link">Compare</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Our Services</h1>
+          <p>Helps you to choose wisely</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Brands----->
+  <section id="brands" class="p-5 bg-dark text-white">
+    <div class="container">
+      <h1 class="text-center">Mobile Brands</h1>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#samsung" data-toggle="collapse" data-parent="accordion">
+                    Samsung
+                  </a>
+                </h5>
+              </div>
+
+              <div id="samsung" class="collapse">
+                <div class="brand card-body">
+                  <a href = "#samsungm30" class = "mobile-active">Samsung M30</a>
+                  <a href = "#samsungm40">Samsung M40</a>
+                  <a href = "#samsungnote10">Samsung Note10</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#xiaomi" data-toggle="collapse" data-parent="accordion">
+                    Xiaomi
+                  </a>
+                </h5>
+              </div>
+
+              <div id="xiaomi" class="collapse">
+                <div class="brand card-body">
+                  <a href = "#realmex">Realme X</a>
+                  <a href = "#xiaomia3">Xiamoi A3</a>
+                  <a href = "#xiaomik20pro">Xiamoi K20 Pro</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#oneplus" data-toggle="collapse" data-parent="accordion">
+                    OnePlus
+                  </a>
+                </h5>
+              </div>
+
+              <div id="oneplus" class="collapse">
+                <div class="brand card-body">
+                  <a href = "#oneplus7pro">OnePlus 7 pro </a>
+                  <a href = "#oneplus7">OnePlus 7  </a>
+                  <a href = "#oneplus7t">OnePlus 7T  </a>
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="compare" class="py-5">
+    <div class="container">
+      <div class = "phones-details">
+
+        <div class="card text-center mb-5" id = "realmex">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/realmex.jpg">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Realme X</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 48MP + 5MP 
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android Pie 9
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: Qualcomm Snapdragon 710 Octa Core
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 4 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 64GB, 128 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>16,999</h4>
+            </div>
+          </div>
+
+          <div class="card text-center mb-5" id = "xiaomia3">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/xiaomi-a3.jpg">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Xiaomi A3</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 48MP + 8MP 
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android Pie 9
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: Qualcomm Snapdragon 665 Octa Core
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 6 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 128 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>15,999</h4>
+            </div>
+          </div>
+
+
+          <div class="card text-center mb-5" id = "xiaomik20pro">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/xiaomi-K20pro.JPG">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Xiaomi K20 pro</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 48MP + 13MP + 8MP 
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android Pie 9
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: Qualcomm SDM855 Snapdragon 855
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 6 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 128 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>24,999</h4>
+            </div>
+          </div>
+
+          <div class="card text-center mb-5 phone-details-active" id = "samsungm30">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/samsung-m30.jpg">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Samsung M30</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 13MP + 5MP + 5MP 
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android Oreo 8.1
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: 1.8GHz Exynos 7904 octa core
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 4 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 64 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>11,999</h4>
+            </div>
+          </div>
+
+          <div class="card text-center mb-5" id = "samsungm40">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/samsung-m40.jpg">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Samsung M40</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 32MP + 8MP + 5MP 
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android Pie 9
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: Qualcomm Snapdragon 675 octa core
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 6 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 128 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>17,999</h4>
+            </div>
+          </div>
+
+
+          <div class="card text-center mb-5" id = "samsungnote10">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/samsung-note10.JPG">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Samsung Note10</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 16MP + 12MP + 12MP 
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android Pie 9
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: Exynos 9825 octa core processor
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 8 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 256 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>69,999</h4>
+            </div>
+          </div>
+
+          <div class="card text-center mb-5" id = "oneplus7pro">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/oneplus7pro.jpg">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">OnePlus 7 pro</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 48MP + 8MP + 16MP
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android Pie 9
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: Qualcomm Snapdragon 855 octa core
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 8 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 256 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>48,999</h4>
+            </div>
+          </div>
+
+          <div class="card text-center mb-5" id = "oneplus7">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/oneplus7.jpg">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">OnePlus 7 </h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 48MP + 5MP
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android Pie 9
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: Qualcomm Snapdragon 855 octa core
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 8 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 256 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>34,999</h4>
+            </div>
+          </div>
+
+
+          <div class="card text-center mb-5" id = "oneplus7t">
+            <div class="card-header text-center bg-white text-white">
+              <img src="img/mobiles/oneplus7t.JPG">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">OnePlus 7T </h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Camera: 48MP + 8MP + 16MP
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Operating System: Android v10
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Processor Type: Qualcomm Snapdragon 855 Plus AI Engine octa-core
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> RAM: 8 GB
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Internal Storage: 256 GB
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success btn-block mt-2">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <h4 class="card-title mb-0">Price: <i class="fas fa-rupee-sign" style = "font-size: 20px;"></i>53,999</h4>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Kompare</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    $(".brand a").on('click', function (event) {
+      event.preventDefault();
+      const brand = this.hash;
+
+      $(this).toggleClass('mobile-active');
+      $(brand).toggleClass('phone-details-active');
+    });
+
+  </script>
+</body>
+
+</html>
